@@ -44,3 +44,25 @@ See each skill's `references/setup.md` for MCP connection snippets. MIT licensed
 ```
 
 The TimeToPost, Toolfound and Clef plugins also register their hosted MCP servers. TimeToPost signs you in through your browser (OAuth); never paste an API token into chat.
+
+## Directory quality reports
+
+Each badge links to the skill's latest accepted Suede directory report. The quality check describes structural evidence; it does not certify the hosted MCP services. Badge placement and promotion are verified separately by the directory.
+
+| Skill | Directory report |
+| --- | --- |
+| timetopost-social-scheduler | [![Suede Skill Check](https://skills.suedeai.ai/directory/melmayssonowen/agent-skills/timetopost-social-scheduler/badge.svg)](https://skills.suedeai.ai/directory/melmayssonowen/agent-skills/timetopost-social-scheduler/) |
+| timetopost-autoseo-blog | [![Suede Skill Check](https://skills.suedeai.ai/directory/melmayssonowen/agent-skills/timetopost-autoseo-blog/badge.svg)](https://skills.suedeai.ai/directory/melmayssonowen/agent-skills/timetopost-autoseo-blog/) |
+| toolfound-launch-kit | [![Suede Skill Check](https://skills.suedeai.ai/directory/melmayssonowen/agent-skills/toolfound-launch-kit/badge.svg)](https://skills.suedeai.ai/directory/melmayssonowen/agent-skills/toolfound-launch-kit/) |
+| sheetfolk-budget-builder | [![Suede Skill Check](https://skills.suedeai.ai/directory/melmayssonowen/agent-skills/sheetfolk-budget-builder/badge.svg)](https://skills.suedeai.ai/directory/melmayssonowen/agent-skills/sheetfolk-budget-builder/) |
+| amazon-listing-checker | [![Suede Skill Check](https://skills.suedeai.ai/directory/melmayssonowen/agent-skills/amazon-listing-checker/badge.svg)](https://skills.suedeai.ai/directory/melmayssonowen/agent-skills/amazon-listing-checker/) |
+| clef-music-tools | [![Suede Skill Check](https://skills.suedeai.ai/directory/melmayssonowen/agent-skills/clef-music-tools/badge.svg)](https://skills.suedeai.ai/directory/melmayssonowen/agent-skills/clef-music-tools/) |
+
+## Local validation
+
+```sh
+python3 -I scripts/check.py
+python3 -I -m unittest discover -s tests -v
+```
+
+These checks cover skill metadata, public-content rules, output-file protection, budget formulas, and preservation of existing campaign attribution. They do not connect to or validate the hosted MCP services.

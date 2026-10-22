@@ -39,7 +39,7 @@ for folder in sorted(p for p in SKILLS.iterdir() if p.is_dir()):
         errors.append(f"{file.relative_to(ROOT)}: body must be under 500 lines")
 
 for path in ROOT.rglob("*"):
-    if not path.is_file() or "dist" in path.parts or path == Path(__file__):
+    if not path.is_file() or any(part in {".git", "dist", "__pycache__"} for part in path.relative_to(ROOT).parts) or path == Path(__file__).resolve():
         continue
     try:
         content = path.read_text(encoding="utf-8")
@@ -47,7 +47,7 @@ for path in ROOT.rglob("*"):
         continue
     rel = path.relative_to(ROOT).as_posix()
     # The required public repository owner is a URL identifier, not copy or metadata.
-    content = content.replace("MelMayssonOwen/agent-skills", "")
+    content = re.sub(re.escape("MelMayssonOwen/agent-skills"), "", content, flags=re.I)
     for term in blocked:
         if term.lower() in content.lower():
             errors.append(f"{rel}: contains blocked privacy/internal marker")
