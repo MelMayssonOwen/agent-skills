@@ -96,6 +96,34 @@
           "url": "https://clefdrills.com/mcp"
         }
       }
+    },
+    {
+      "name": "ambassly-affiliate-program",
+      "source": "./",
+      "description": "Run a Stripe-based affiliate program with human-reviewed commissions.",
+      "skills": [
+        "./skills/ambassly-affiliate-program"
+      ],
+      "strict": false,
+      "version": "1.0.0",
+      "license": "MIT"
+    },
+    {
+      "name": "makeirl-release-gate",
+      "source": "./",
+      "description": "Check KiCad boards before manufacturing.",
+      "skills": [
+        "./skills/makeirl-release-gate"
+      ],
+      "strict": false,
+      "version": "1.0.0",
+      "license": "MIT",
+      "mcpServers": {
+        "makeirl": {
+          "type": "http",
+          "url": "https://makeirl.com/api/mcp"
+        }
+      }
     }
   ]
 }

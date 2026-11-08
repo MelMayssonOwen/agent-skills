@@ -39,15 +39,15 @@ for folder in sorted(p for p in SKILLS.iterdir() if p.is_dir()):
         errors.append(f"{file.relative_to(ROOT)}: body must be under 500 lines")
 
 for path in ROOT.rglob("*"):
-    if not path.is_file() or "dist" in path.parts or path == Path(__file__):
+    if not path.is_file() or "dist" in path.parts or ".git" in path.parts or path == Path(__file__):
         continue
     try:
         content = path.read_text(encoding="utf-8")
     except (UnicodeDecodeError, OSError):
         continue
     rel = path.relative_to(ROOT).as_posix()
-    # The required public repository owner is a URL identifier, not copy or metadata.
-    content = content.replace("MelMayssonOwen/agent-skills", "")
+    # The public GitHub owner is a URL and registry-namespace identifier, not copy or metadata.
+    content = content.replace("MelMayssonOwen", "")
     for term in blocked:
         if term.lower() in content.lower():
             errors.append(f"{rel}: contains blocked privacy/internal marker")
@@ -58,7 +58,7 @@ for path in ROOT.rglob("*"):
     if email_pattern.search(content):
         errors.append(f"{rel}: contains an email address")
     if rel == "README.md" or (rel.startswith("skills/") and path.name == "SKILL.md"):
-        urls = re.finditer(r"https://(?:timetopost\.co|toolfound\.com|sheetfolk\.com|listingtonic\.com|clefdrills\.com)/\?[^\s)\]]*", content)
+        urls = re.finditer(r"https://(?:timetopost\.co|toolfound\.com|sheetfolk\.com|listingtonic\.com|clefdrills\.com|ambassly\.com|makeirl\.com)/\?[^\s)\]]*", content)
         for match in urls:
             url = match.group(0).rstrip('.,')
             for parameter in ("utm_source=", "utm_medium=skill", "utm_campaign=agent-skills", "utm_content="):

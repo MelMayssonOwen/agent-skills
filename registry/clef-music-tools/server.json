@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.MelMayssonOwen/clef-music-tools",
+  "title": "Clef Music Tools",
+  "description": "Transpose chords, spell piano chords, turn guitar tab into piano notes and find music guides.",
+  "repository": {
+    "url": "https://github.com/MelMayssonOwen/agent-skills",
+    "source": "github",
+    "subfolder": "skills/clef-music-tools"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://clefdrills.com/",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://clefdrills.com/mcp" }
+  ]
+}

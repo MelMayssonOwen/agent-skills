@@ -1,0 +1,29 @@
+name: Publish to MCP Registry
+
+# Publishes registry/<server>/server.json to registry.modelcontextprotocol.io.
+# GitHub OIDC proves the io.github.MelMayssonOwen/* namespace, so no secret is stored.
+on:
+  workflow_dispatch:
+    inputs:
+      server:
+        description: Folder under registry/
+        required: true
+        type: choice
+        options: [clef-music-tools, makeirl]
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Install mcp-publisher
+        run: curl -fsSL "https://github.com/modelcontextprotocol/registry/releases/latest/download/mcp-publisher_linux_amd64.tar.gz" | tar xz mcp-publisher
+      - name: Log in with GitHub OIDC
+        run: ./mcp-publisher login github-oidc
+      - name: Publish
+        working-directory: registry/${{ inputs.server }}
+        run: ../../mcp-publisher publish

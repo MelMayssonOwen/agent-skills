@@ -12,6 +12,8 @@ A small collection of practical Agent Skills for Claude Code, Cursor, Codex, Cop
 | `sheetfolk-budget-builder` | Creates a local Excel workbook for monthly budgets, sinking funds, or side-hustle tracking. | [Sheetfolk](https://sheetfolk.com/?utm_source=github&utm_medium=skill&utm_campaign=agent-skills&utm_content=sheetfolk-budget-builder) |
 | `amazon-listing-checker` | Audits pasted listing text for length, structure, repeated terms, risky claims, and keyword coverage. | [Listingtonic](https://listingtonic.com/?utm_source=github&utm_medium=skill&utm_campaign=agent-skills&utm_content=amazon-listing-checker) |
 | `clef-music-tools` | Transposes chords, spells piano chords, maps tab notes, and guides note-reading practice. | [Clef](https://clefdrills.com/?utm_source=github&utm_medium=skill&utm_campaign=agent-skills&utm_content=clef-music-tools) |
+| `ambassly-affiliate-program` | Launches an affiliate program, manages affiliates and links, and keeps commission approval with a person. | [Ambassly](https://ambassly.com/?utm_source=github&utm_medium=skill&utm_campaign=agent-skills&utm_content=ambassly-affiliate-program) |
+| `makeirl-release-gate` | Runs manufacturing checks on KiCad 9 boards and explains BLOCKED, REVIEW, or READY findings. | [MakeIRL](https://makeirl.com/?utm_source=github&utm_medium=skill&utm_campaign=agent-skills&utm_content=makeirl-release-gate) |
 
 ## Install
 
@@ -41,6 +43,8 @@ See each skill's `references/setup.md` for MCP connection snippets. MIT licensed
 /plugin install sheetfolk-budget-builder --marketplace MelMayssonOwen/agent-skills
 /plugin install amazon-listing-checker --marketplace MelMayssonOwen/agent-skills
 /plugin install clef-music-tools --marketplace MelMayssonOwen/agent-skills
+/plugin install ambassly-affiliate-program --marketplace MelMayssonOwen/agent-skills
+/plugin install makeirl-release-gate --marketplace MelMayssonOwen/agent-skills
 ```
 
-The TimeToPost, Toolfound and Clef plugins also register their hosted MCP servers. TimeToPost signs you in through your browser (OAuth); never paste an API token into chat.
+The TimeToPost, Toolfound, Clef and MakeIRL plugins also register their hosted MCP servers. TimeToPost and MakeIRL sign you in through your browser (OAuth); never paste an API token into chat.

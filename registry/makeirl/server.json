@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.MelMayssonOwen/makeirl",
+  "title": "MakeIRL",
+  "description": "Run ERC, DRC, parity, BOM and export checks on KiCad 9 boards before manufacturing.",
+  "repository": {
+    "url": "https://github.com/MelMayssonOwen/agent-skills",
+    "source": "github",
+    "subfolder": "skills/makeirl-release-gate"
+  },
+  "version": "0.2.0",
+  "websiteUrl": "https://makeirl.com/",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://makeirl.com/api/mcp" }
+  ]
+}
