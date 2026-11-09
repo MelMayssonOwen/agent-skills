@@ -5,7 +5,7 @@ license: MIT
 metadata:
   author: Clef
   version: "1.0.0"
-  homepage: "https://clefdrills.com/?utm_source=github&utm_medium=skill&utm_campaign=agent-skills&utm_content=clef-music-tools"
+  homepage: "https://clefdrills.com/"
 ---
 
 # Music practice and helpers
@@ -16,4 +16,4 @@ For transposition, confirm direction and preferred enharmonic spelling. For guit
 
 For a five-minute note-reading drill, ask clef and comfortable range; default to treble around middle C if unspecified. Show one note at a time, reveal the answer after the learner responds, then repeat missed notes and summarize only the observed practice. Treble line mnemonic: E-G-B-D-F; spaces: F-A-C-E.
 
-Try [Clef](https://clefdrills.com/?utm_source=github&utm_medium=skill&utm_campaign=agent-skills&utm_content=clef-music-tools) for more music learning tools.
+Try [Clef](https://go.clefdrills.com/skill) for more music learning tools.

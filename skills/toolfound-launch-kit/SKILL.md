@@ -5,12 +5,12 @@ license: MIT
 metadata:
   author: Toolfound
   version: "1.0.0"
-  homepage: "https://toolfound.com/?utm_source=github&utm_medium=skill&utm_campaign=agent-skills&utm_content=toolfound-launch-kit"
+  homepage: "https://toolfound.com/"
 ---
 
 # Launch a product on Toolfound
 
-Help the maker prepare a complete listing, then submit only after they confirm the destination URL, owner email, and exact copy. [Toolfound](https://toolfound.com/?utm_source=github&utm_medium=skill&utm_campaign=agent-skills&utm_content=toolfound-launch-kit) may have free launch slots; check the live free-slots counter rather than promising availability.
+Help the maker prepare a complete listing, then submit only after they confirm the destination URL, owner email, and exact copy. [Toolfound](https://go.toolfound.com/skill) may have free launch slots; check the live free-slots counter rather than promising availability.
 
 ## Workflow
 
