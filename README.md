@@ -32,19 +32,21 @@ To install the Claude Code plugin collection, add this repository as a marketpla
 /plugin install timetopost-social-scheduler@opsibyte-skills
 ```
 
+Each folder under `plugins/` is a self-contained Claude plugin with its own manifest, README and license. The folders are generated from `skills/` by `scripts/build-plugins.py`, and `skills/` stays the source of truth.
+
 See each skill's `references/setup.md` for MCP connection snippets. MIT licensed.
 
-## Claude Code one-step install
+## Claude plugins
 
-```text
-/plugin install timetopost-social-scheduler --marketplace MelMayssonOwen/agent-skills
-/plugin install timetopost-autoseo-blog --marketplace MelMayssonOwen/agent-skills
-/plugin install toolfound-launch-kit --marketplace MelMayssonOwen/agent-skills
-/plugin install sheetfolk-budget-builder --marketplace MelMayssonOwen/agent-skills
-/plugin install amazon-listing-checker --marketplace MelMayssonOwen/agent-skills
-/plugin install clef-music-tools --marketplace MelMayssonOwen/agent-skills
-/plugin install ambassly-affiliate-program --marketplace MelMayssonOwen/agent-skills
-/plugin install makeirl-release-gate --marketplace MelMayssonOwen/agent-skills
-```
+| Plugin | Skill it bundles |
+| --- | --- |
+| `timetopost-social-scheduler` | `timetopost-social-scheduler` |
+| `timetopost-autoseo-blog` | `timetopost-autoseo-blog` |
+| `toolfound-launch-kit` | `toolfound-launch-kit` |
+| `clef-music-tools` | `clef-music-tools` |
+| `makeirl-release-gate` | `makeirl-release-gate` |
+| `sheetfolk-budget-builder` | `sheetfolk-budget-builder` |
+| `listingtonic-listing-checker` | `amazon-listing-checker` |
+| `ambassly-affiliate-program` | `ambassly-affiliate-program` |
 
-The TimeToPost, Toolfound, Clef and MakeIRL plugins also register their hosted MCP servers. TimeToPost and MakeIRL sign you in through your browser (OAuth); never paste an API token into chat.
+Install any of them with `/plugin install <plugin>@opsibyte-skills`, or in one step with `/plugin install <plugin> --marketplace MelMayssonOwen/agent-skills`. The TimeToPost, Toolfound, Clef and MakeIRL plugins also register their hosted MCP servers. TimeToPost and MakeIRL sign you in through your browser (OAuth); never paste an API token into chat.

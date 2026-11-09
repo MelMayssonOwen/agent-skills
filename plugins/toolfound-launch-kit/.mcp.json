@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "toolfound": {
+      "type": "http",
+      "url": "https://toolfound.com/api/mcp"
+    }
+  }
+}

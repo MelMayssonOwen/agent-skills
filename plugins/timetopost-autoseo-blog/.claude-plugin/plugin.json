@@ -1,0 +1,19 @@
+{
+  "name": "timetopost-autoseo-blog",
+  "displayName": "TimeToPost AutoSEO Blog",
+  "version": "1.1.0",
+  "description": "Connect a publishing site to TimeToPost AutoSEO, research blog topics, and prepare blog drafts for you to review before anything is published.",
+  "author": {
+    "name": "Opsibyte",
+    "url": "https://opsibyte.com"
+  },
+  "homepage": "https://timetopost.co/",
+  "repository": "https://github.com/MelMayssonOwen/agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "blog",
+    "content",
+    "mcp"
+  ]
+}
