@@ -12,7 +12,9 @@ After installing, ask Claude in plain words. Examples:
 
 ## Data
 
-This plugin registers the hosted Clef MCP server at https://clefdrills.com/mcp. When Claude uses a Clef tool, the request goes to that server on the Clef domain. No account or sign-in is needed. The plugin has no scripts that run on your machine and sends nothing anywhere else. The bundled Python helper for chords runs locally and sends nothing over the network.
+This plugin registers the hosted Clef MCP server at https://clefdrills.com/mcp. When Claude uses a Clef tool, the request goes to that server on the Clef domain. No account or sign-in is needed. The bundled Python helper for transposing chords runs locally and makes no network requests. The plugin sends nothing anywhere else.
+
+Privacy policy: https://clefdrills.com/privacy/
 
 ## Install
 

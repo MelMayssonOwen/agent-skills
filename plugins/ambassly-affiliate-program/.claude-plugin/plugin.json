@@ -2,7 +2,7 @@
   "name": "ambassly-affiliate-program",
   "displayName": "Ambassly Affiliate Program",
   "version": "1.1.0",
-  "description": "Launch and run a Stripe-based affiliate program with Ambassly: set up the program, manage affiliates and links, and keep commission approval with a person.",
+  "description": "Launch and run a Stripe-based affiliate program with Ambassly: set up the program, manage affiliates and links, and review commissions.",
   "author": {
     "name": "Opsibyte",
     "url": "https://opsibyte.com"
@@ -15,5 +15,6 @@
     "stripe",
     "partners",
     "commissions"
-  ]
+  ],
+  "privacyPolicyUrl": "https://ambassly.com/privacy"
 }

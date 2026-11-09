@@ -14,6 +14,8 @@ After installing, ask Claude in plain words. Examples:
 
 This plugin registers the hosted Toolfound MCP server at https://toolfound.com/api/mcp. When Claude uses a Toolfound tool, the request goes to that server on the Toolfound domain. No account or sign-in is needed to browse. Submitting a listing sends the product details you confirm to Toolfound. The plugin has no scripts that run on your machine and sends nothing anywhere else.
 
+Privacy policy: https://toolfound.com/legal/privacy
+
 ## Install
 
 ```sh

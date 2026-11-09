@@ -10,14 +10,14 @@
     {
       "name": "timetopost-social-scheduler",
       "source": "./plugins/timetopost-social-scheduler",
-      "description": "Draft platform-specific social posts, check the best posting times, and schedule them through TimeToPost once you confirm the exact content, accounts and time.",
+      "description": "Draft platform-specific social posts, check the best posting times, and schedule them through TimeToPost.",
       "version": "1.1.0",
       "license": "MIT"
     },
     {
       "name": "timetopost-autoseo-blog",
       "source": "./plugins/timetopost-autoseo-blog",
-      "description": "Connect a publishing site to TimeToPost AutoSEO, research blog topics, and prepare blog drafts for you to review before anything is published.",
+      "description": "Connect a publishing site to TimeToPost AutoSEO, research blog topics, and prepare blog drafts.",
       "version": "1.1.0",
       "license": "MIT"
     },
@@ -59,7 +59,7 @@
     {
       "name": "ambassly-affiliate-program",
       "source": "./plugins/ambassly-affiliate-program",
-      "description": "Launch and run a Stripe-based affiliate program with Ambassly: set up the program, manage affiliates and links, and keep commission approval with a person.",
+      "description": "Launch and run a Stripe-based affiliate program with Ambassly: set up the program, manage affiliates and links, and review commissions.",
       "version": "1.1.0",
       "license": "MIT"
     }

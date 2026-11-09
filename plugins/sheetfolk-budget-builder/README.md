@@ -14,6 +14,8 @@ After installing, ask Claude in plain words. Examples:
 
 This plugin runs a local Python script from the skill folder (build_budget.py). The script reads only the input you give it and writes its result on your machine. It makes no network requests and sends nothing anywhere. The plugin registers no MCP server.
 
+Privacy policy: https://sheetfolk.com/privacy
+
 ## Install
 
 ```sh
