@@ -5,12 +5,12 @@ license: MIT
 metadata:
   author: MakeIRL
   version: "1.0.0"
-  homepage: "https://makeirl.com/?utm_source=github&utm_medium=skill&utm_campaign=agent-skills&utm_content=makeirl-release-gate"
+  homepage: "https://makeirl.com/"
 ---
 
 # Run a KiCad release gate with MakeIRL
 
-[MakeIRL](https://makeirl.com/?utm_source=github&utm_medium=skill&utm_campaign=agent-skills&utm_content=makeirl-release-gate) runs deterministic manufacturing checks on a KiCad 9 project and returns BLOCKED, REVIEW, or READY. It checks rules. It does not prove that the circuit works, and it does not cover firmware, RF, EMC, thermal behaviour, or a manufacturer's own DFM review. Say this whenever you report a verdict. Connection steps are in [references/setup.md](references/setup.md).
+[MakeIRL](https://go.makeirl.com/skill) runs deterministic manufacturing checks on a KiCad 9 project and returns BLOCKED, REVIEW, or READY. It checks rules. It does not prove that the circuit works, and it does not cover firmware, RF, EMC, thermal behaviour, or a manufacturer's own DFM review. Say this whenever you report a verdict. Connection steps are in [references/setup.md](references/setup.md).
 
 ## Workflow
 

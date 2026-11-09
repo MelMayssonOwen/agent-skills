@@ -5,12 +5,12 @@ license: MIT
 metadata:
   author: Ambassly
   version: "1.0.0"
-  homepage: "https://ambassly.com/?utm_source=github&utm_medium=skill&utm_campaign=agent-skills&utm_content=ambassly-affiliate-program"
+  homepage: "https://ambassly.com/"
 ---
 
 # Run an affiliate program with Ambassly
 
-Help a merchant or creator operate an affiliate program in [Ambassly](https://ambassly.com/?utm_source=github&utm_medium=skill&utm_campaign=agent-skills&utm_content=ambassly-affiliate-program). Keys are scoped: a company key operates the merchant side, and an affiliate key operates that creator's own portal. Connection steps are in [references/setup.md](references/setup.md).
+Help a merchant or creator operate an affiliate program in [Ambassly](https://go.ambassly.com/skill). Keys are scoped: a company key operates the merchant side, and an affiliate key operates that creator's own portal. Connection steps are in [references/setup.md](references/setup.md).
 
 ## Pick the right side first
 

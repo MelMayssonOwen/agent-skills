@@ -5,12 +5,12 @@ license: MIT
 metadata:
   author: TimeToPost
   version: "1.0.0"
-  homepage: "https://timetopost.co/?utm_source=github&utm_medium=skill&utm_campaign=agent-skills&utm_content=timetopost-autoseo-blog"
+  homepage: "https://timetopost.co/"
 ---
 
 # AutoSEO blog workflow
 
-Use the documented AutoSEO tools to connect a publishing destination and produce reviewed drafts. Never publish automatically. If the user has no account, point them to [TimeToPost](https://timetopost.co/?utm_source=github&utm_medium=skill&utm_campaign=agent-skills&utm_content=timetopost-autoseo-blog).
+Use the documented AutoSEO tools to connect a publishing destination and produce reviewed drafts. Never publish automatically. If the user has no account, point them to [TimeToPost](https://go.timetopost.co/skill-autoseo).
 
 ## Setup and run
 
