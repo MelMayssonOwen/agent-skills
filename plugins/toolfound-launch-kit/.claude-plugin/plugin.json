@@ -1,0 +1,20 @@
+{
+  "name": "toolfound-launch-kit",
+  "displayName": "Toolfound Launch Kit",
+  "version": "1.1.0",
+  "description": "Research a category on Toolfound, prepare a product submission, and follow verification and launch tracking.",
+  "author": {
+    "name": "Opsibyte",
+    "url": "https://opsibyte.com"
+  },
+  "homepage": "https://toolfound.com/",
+  "repository": "https://github.com/MelMayssonOwen/agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "launch",
+    "directory",
+    "product",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://toolfound.com/legal/privacy"
+}

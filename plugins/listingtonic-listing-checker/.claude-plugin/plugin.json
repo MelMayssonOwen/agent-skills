@@ -1,0 +1,20 @@
+{
+  "name": "listingtonic-listing-checker",
+  "displayName": "Listingtonic Listing Checker",
+  "version": "1.1.0",
+  "description": "Audit pasted marketplace listing text for length, structure, repeated terms, risky claims, and keyword coverage.",
+  "author": {
+    "name": "Opsibyte",
+    "url": "https://opsibyte.com"
+  },
+  "homepage": "https://listingtonic.com/",
+  "repository": "https://github.com/MelMayssonOwen/agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "ecommerce",
+    "listing",
+    "copywriting",
+    "audit"
+  ],
+  "privacyPolicyUrl": "https://listingtonic.com/privacy"
+}

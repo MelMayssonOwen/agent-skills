@@ -9,121 +9,59 @@
   "plugins": [
     {
       "name": "timetopost-social-scheduler",
-      "source": "./",
-      "description": "Draft and schedule social posts with human approval.",
-      "skills": [
-        "./skills/timetopost-social-scheduler"
-      ],
-      "strict": false,
-      "version": "1.0.0",
-      "license": "MIT",
-      "mcpServers": {
-        "timetopost": {
-          "type": "http",
-          "url": "https://api.timetopost.co/mcp"
-        }
-      }
-    },
-    {
-      "name": "timetopost-autoseo-blog",
-      "source": "./",
-      "description": "Set up AutoSEO and prepare reviewed blog drafts.",
-      "skills": [
-        "./skills/timetopost-autoseo-blog"
-      ],
-      "strict": false,
-      "version": "1.0.0",
-      "license": "MIT",
-      "mcpServers": {
-        "timetopost": {
-          "type": "http",
-          "url": "https://api.timetopost.co/mcp"
-        }
-      }
-    },
-    {
-      "name": "toolfound-launch-kit",
-      "source": "./",
-      "description": "Prepare and track a Toolfound product launch.",
-      "skills": [
-        "./skills/toolfound-launch-kit"
-      ],
-      "strict": false,
-      "version": "1.0.0",
-      "license": "MIT",
-      "mcpServers": {
-        "toolfound": {
-          "type": "http",
-          "url": "https://toolfound.com/api/mcp"
-        }
-      }
-    },
-    {
-      "name": "sheetfolk-budget-builder",
-      "source": "./",
-      "description": "Build a local monthly budget workbook.",
-      "skills": [
-        "./skills/sheetfolk-budget-builder"
-      ],
-      "strict": false,
-      "version": "1.0.0",
+      "source": "./plugins/timetopost-social-scheduler",
+      "description": "Draft platform-specific social posts, check the best posting times, and schedule them through TimeToPost.",
+      "version": "1.1.0",
       "license": "MIT"
     },
     {
-      "name": "amazon-listing-checker",
-      "source": "./",
-      "description": "Audit pasted marketplace listing text.",
-      "skills": [
-        "./skills/amazon-listing-checker"
-      ],
-      "strict": false,
-      "version": "1.0.0",
+      "name": "timetopost-autoseo-blog",
+      "source": "./plugins/timetopost-autoseo-blog",
+      "description": "Connect a publishing site to TimeToPost AutoSEO, research blog topics, and prepare blog drafts.",
+      "version": "1.1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "toolfound-launch-kit",
+      "source": "./plugins/toolfound-launch-kit",
+      "description": "Research a category on Toolfound, prepare a product submission, and follow verification and launch tracking.",
+      "version": "1.1.0",
       "license": "MIT"
     },
     {
       "name": "clef-music-tools",
-      "source": "./",
-      "description": "Use music MCP tools and offline chord helpers.",
-      "skills": [
-        "./skills/clef-music-tools"
-      ],
-      "strict": false,
-      "version": "1.0.0",
-      "license": "MIT",
-      "mcpServers": {
-        "clef": {
-          "type": "http",
-          "url": "https://clefdrills.com/mcp"
-        }
-      }
-    },
-    {
-      "name": "ambassly-affiliate-program",
-      "source": "./",
-      "description": "Run a Stripe-based affiliate program with human-reviewed commissions.",
-      "skills": [
-        "./skills/ambassly-affiliate-program"
-      ],
-      "strict": false,
-      "version": "1.0.0",
+      "source": "./plugins/clef-music-tools",
+      "description": "Transpose chords, spell piano chords, map guitar tab notes to the staff, and practice note reading with the Clef tools.",
+      "version": "1.1.0",
       "license": "MIT"
     },
     {
       "name": "makeirl-release-gate",
-      "source": "./",
-      "description": "Check KiCad boards before manufacturing.",
-      "skills": [
-        "./skills/makeirl-release-gate"
-      ],
-      "strict": false,
-      "version": "1.0.0",
-      "license": "MIT",
-      "mcpServers": {
-        "makeirl": {
-          "type": "http",
-          "url": "https://makeirl.com/api/mcp"
-        }
-      }
+      "source": "./plugins/makeirl-release-gate",
+      "description": "Run manufacturing checks on a KiCad 9 board and get a BLOCKED, REVIEW or READY verdict with each finding explained.",
+      "version": "1.1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "sheetfolk-budget-builder",
+      "source": "./plugins/sheetfolk-budget-builder",
+      "description": "Create a local Excel workbook for a monthly budget, sinking funds, or side-hustle income and expenses.",
+      "version": "1.1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "listingtonic-listing-checker",
+      "source": "./plugins/listingtonic-listing-checker",
+      "description": "Audit pasted marketplace listing text for length, structure, repeated terms, risky claims, and keyword coverage.",
+      "version": "1.1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "ambassly-affiliate-program",
+      "source": "./plugins/ambassly-affiliate-program",
+      "description": "Launch and run a Stripe-based affiliate program with Ambassly: set up the program, manage affiliates and links, and review commissions.",
+      "version": "1.1.0",
+      "license": "MIT"
     }
   ]
 }

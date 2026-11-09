@@ -1,0 +1,20 @@
+{
+  "name": "timetopost-social-scheduler",
+  "displayName": "TimeToPost Social Scheduler",
+  "version": "1.1.0",
+  "description": "Draft platform-specific social posts, check the best posting times, and schedule them through TimeToPost.",
+  "author": {
+    "name": "Opsibyte",
+    "url": "https://opsibyte.com"
+  },
+  "homepage": "https://timetopost.co/",
+  "repository": "https://github.com/MelMayssonOwen/agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "social-media",
+    "scheduling",
+    "posts",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://timetopost.co/privacy/"
+}
