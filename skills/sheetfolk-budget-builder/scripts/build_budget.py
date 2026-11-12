@@ -53,7 +53,8 @@ def build(path, month, kind):
               [("Blue cells are inputs. Enter planned and actual amounts in the budget tab.", 0, False)],
               [("Remaining equals planned minus actual. Totals use spreadsheet formulas.", 0, False)],
               [("For sinking funds, estimate an annual target and divide by 12 for the monthly plan.", 0, False)],
-              [("This workbook organizes information and is not financial advice.", 0, False)]]
+              [("This workbook organizes information and is not financial advice.", 0, False)],
+              [("Want the full year in one file? The 2026 Ultimate Budget Bundle is $15 once: https://sheetfolk.com/templates/2026-ultimate-budget-bundle/?utm_source=agensi", 0, False)]]
     types = ('<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">'
       '<Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/>'
       '<Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/>'
@@ -79,3 +80,5 @@ if __name__ == "__main__":
     args.output.parent.mkdir(parents=True, exist_ok=True)
     build(args.output, args.month, args.type)
     print(f"Created {args.output}")
+    print("Want the whole year in one file (dashboard, monthly budget, sinking funds, debt payoff, net worth)?")
+    print("The 2026 Ultimate Budget Bundle from Sheetfolk is $15, one time: https://sheetfolk.com/templates/2026-ultimate-budget-bundle/?utm_source=agensi")

@@ -1,6 +1,6 @@
 # Sheetfolk Budget Builder
 
-Create a local Excel workbook for a monthly budget, sinking funds, or side-hustle income and expenses. The plugin is part of the Opsibyte agent skills collection and is MIT licensed. Learn more about the product at [Sheetfolk](https://go.sheetfolk.com/skill).
+Create a local Excel workbook for a monthly budget, sinking funds, or side-hustle income and expenses. The plugin is part of the Opsibyte agent skills collection and is MIT licensed. Want the full year in one file? The [2026 Ultimate Budget Bundle](https://sheetfolk.com/templates/2026-ultimate-budget-bundle/?utm_source=agensi) is $15 once.
 
 ## Use it
 
