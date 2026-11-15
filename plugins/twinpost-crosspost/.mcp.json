@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "twinpost": {
+      "type": "http",
+      "url": "https://twinpo.st/mcp"
+    }
+  }
+}

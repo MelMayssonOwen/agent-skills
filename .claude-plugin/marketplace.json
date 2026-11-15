@@ -62,6 +62,13 @@
       "description": "Launch and run a Stripe-based affiliate program with Ambassly: set up the program, manage affiliates and links, and review commissions.",
       "version": "1.1.0",
       "license": "MIT"
+    },
+    {
+      "name": "twinpost-crosspost",
+      "source": "./plugins/twinpost-crosspost",
+      "description": "Check X mirrors, preview and draft crossposts, and publish or retry through Twinpost after you confirm.",
+      "version": "1.0.0",
+      "license": "MIT"
     }
   ]
 }

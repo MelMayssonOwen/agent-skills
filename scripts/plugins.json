@@ -6,5 +6,6 @@
   "makeirl-release-gate": {"skill": "makeirl-release-gate"},
   "sheetfolk-budget-builder": {"skill": "sheetfolk-budget-builder"},
   "listingtonic-listing-checker": {"skill": "amazon-listing-checker"},
-  "ambassly-affiliate-program": {"skill": "ambassly-affiliate-program"}
+  "ambassly-affiliate-program": {"skill": "ambassly-affiliate-program"},
+  "twinpost-crosspost": {"skill": "twinpost-crosspost"}
 }
