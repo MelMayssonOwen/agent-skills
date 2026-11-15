@@ -1,0 +1,12 @@
+{
+  "name": "twinpost-crosspost",
+  "displayName": "Twinpost Crosspost",
+  "version": "1.0.0",
+  "description": "Check X mirrors, preview and draft crossposts, and publish or retry through Twinpost after you confirm.",
+  "author": { "name": "Opsibyte", "url": "https://opsibyte.com" },
+  "homepage": "https://twinpo.st/",
+  "repository": "https://github.com/MelMayssonOwen/agent-skills",
+  "license": "MIT",
+  "keywords": ["crosspost", "social media", "mcp"],
+  "privacyPolicyUrl": "https://twinpo.st/privacy"
+}

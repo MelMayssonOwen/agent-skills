@@ -13,6 +13,7 @@ A small collection of practical Agent Skills for Claude Code, Cursor, Codex, Cop
 | `amazon-listing-checker` | Audits pasted listing text for length, structure, repeated terms, risky claims, and keyword coverage. | [Listingtonic](https://go.listingtonic.com/skill) |
 | `clef-music-tools` | Transposes chords, spells piano chords, maps tab notes, and guides note-reading practice. | [Clef](https://go.clefdrills.com/skill) |
 | `ambassly-affiliate-program` | Launches an affiliate program, manages affiliates and links, and keeps commission approval with a person. | [Ambassly](https://go.ambassly.com/skill) |
+| `twinpost-crosspost` | Checks X mirrors, previews and drafts crossposts, and publishes or retries only after you confirm. | [Twinpost](https://go.twinpo.st/mkt-github) |
 | `makeirl-release-gate` | Runs manufacturing checks on KiCad 9 boards and explains BLOCKED, REVIEW, or READY findings. | [MakeIRL](https://go.makeirl.com/skill) |
 
 ## Install
@@ -48,5 +49,6 @@ See each skill's `references/setup.md` for MCP connection snippets. MIT licensed
 | `sheetfolk-budget-builder` | `sheetfolk-budget-builder` |
 | `listingtonic-listing-checker` | `amazon-listing-checker` |
 | `ambassly-affiliate-program` | `ambassly-affiliate-program` |
+| `twinpost-crosspost` | `twinpost-crosspost` |
 
 Install any of them with `/plugin install <plugin>@opsibyte-skills`, or in one step with `/plugin install <plugin> --marketplace MelMayssonOwen/agent-skills`. The TimeToPost, Toolfound, Clef and MakeIRL plugins also register their hosted MCP servers. TimeToPost and MakeIRL sign you in through your browser (OAuth); never paste an API token into chat.
