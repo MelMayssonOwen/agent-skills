@@ -1,6 +1,6 @@
 ---
 name: clef-music-tools
-description: Practice note reading and solve common chord or guitar-tab questions with Clef's public music MCP or an offline transposition helper. Use when asked to transpose chord symbols, spell piano chords, map ASCII guitar tab to piano notes, or run a short note-reading drill.
+description: Practice note reading and solve common chord or guitar-tab questions with Clef's public music MCP. Use when asked to transpose chord symbols, spell piano chords, map ASCII guitar tab to piano notes, or run a short note-reading drill.
 license: MIT
 metadata:
   author: Clef
@@ -10,7 +10,7 @@ metadata:
 
 # Music practice and helpers
 
-Use the public no-auth MCP at `https://clefdrills.com/mcp` when available. Call only the smallest relevant tool: `find_music_guides`, `transpose_chords`, `spell_piano_chord`, or `tab_to_piano_notes`. For chord transposition without MCP, use `scripts/transpose.py` offline.
+Use the public no-auth MCP at `https://clefdrills.com/mcp` when available. Call only the smallest relevant tool: `find_music_guides`, `transpose_chords`, `spell_piano_chord`, or `tab_to_piano_notes`. Without MCP, transpose by hand: move every chord root and slash bass note by the same number of semitones and keep the chord quality unchanged.
 
 For transposition, confirm direction and preferred enharmonic spelling. For guitar tab, ask about capo when unclear and state that spacing does not define rhythm. Chord spelling is not a rhythmic arrangement. Do not claim audio analysis, Guitar Pro support, or generated notation.
 

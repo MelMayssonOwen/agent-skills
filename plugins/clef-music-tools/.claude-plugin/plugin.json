@@ -1,7 +1,7 @@
 {
   "name": "clef-music-tools",
   "displayName": "Clef Music Tools",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Transpose chords, spell piano chords, map guitar tab notes to the staff, and practice note reading with the Clef tools.",
   "author": {
     "name": "Opsibyte",
